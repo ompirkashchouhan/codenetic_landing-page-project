@@ -28,7 +28,7 @@
     width: 40px; 
     flex: 1.2;
     padding: 4px 4px;
-    margin-left: 80px;
+    margin-left: 90px;
     align-content: center;
 }
 
@@ -146,7 +146,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 1px solid blue;
 }
 
 .serviceHeadtxt{
@@ -155,7 +154,6 @@
     width: 85%;
     margin: 35px auto;
     text-align: center;
-    border: 1px solid red;
 }
 
 .serviceHeadtxt h1{
@@ -167,4 +165,159 @@
 .serviceHeadtxt p{
     font-size: 42px;
     font-weight: 600;
+}
+
+/* >>>>> Cards <<<<< */
+
+.cardMain{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.cardMain > .mains{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 50px;
+    padding: 15px 20px;
+    border-radius: 20px;
+    box-shadow: rgb(219, 222, 225,0.4) -10px 30px 70px 0px;
+    /* border: 1px solid rgb(0, 0, 0); */
+    transition: 0.5s ease 0s;
+}
+
+.cardMain > .mains:hover{
+    background-color: #4c40f7;
+    color: white;
+}
+
+.first{
+    margin-left: 70px;
+}
+
+.last{
+    margin-right: 70px;
+}
+
+.cardIconDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 25px;
+    box-shadow: rgb(76, 64, 247,0.25) -15px 10px 30px 0px;
+    background-color: chartreuse;
+}
+
+.cardIconDiv+p{
+    font-weight: 600;
+}
+
+.oneMains{
+    background-color: #fff;
+}
+
+.twoMains{
+    background-color: #ff2d59;
+}
+
+.threeMains{
+    background-color: #4adb61;
+}
+
+.fourMains{
+    background-color: #ffcc00;
+}
+
+.fiveMains{
+    background-color: #007bff;
+}
+
+.sixMains{
+    background-color: #ff6800;
+}
+
+.cardMain > div > .cardIconDiv > img{
+    width: 25px;
+    height: 30px;
+}
+
+.mains button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 244, 246);;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+}
+
+.mains > div,p,button{
+    margin-bottom: 30px;
+}
+
+.mains button img{
+    width: 20px;
+    height: 20px;
+}
+
+/* >>>>> Our Documentation Section <<<<< */
+
+.ourDocMain{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ourDocMain > .textDiv{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.ourDocMain > .textDiv h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: #ff2d59;
+}
+
+.ourDocMain > .textDiv p{
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.iFrameDiv{
+    width: 100%;
+    height: 555px;
+    display: flex;
+    justify-content: center;
+    background-image: url(./../assets/images/documentaionBackground.svg);
+    align-items: flex-end;
+}
+
+.iframeChild > video{
+    width: 955px;
+    height: 540px;
+    display: flex;
+    align-items: flex-end;
+}
+
+/* >>>>> Customer Satisfication Section <<<<< */
+
+.customerMain{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
