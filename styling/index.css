@@ -71,7 +71,7 @@
     font-size: 18;
     font-weight: 600;
     padding: 22px 36px;
-    margin-right: -45px;
+    margin-top: 30px;    
     border: none;
     border-radius: 10px;
     box-shadow: -4px 5px 18px rgb(174, 174, 174);
@@ -84,11 +84,10 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    border-bottom: 1px solid black;
     padding-top: 80px;
     width: 100%;
     height: 498px;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
 }
 
 .ahsChild .txtDiv > h1{
@@ -119,6 +118,7 @@
     font-weight: 600;
     padding: 18px 60px;
     margin-top: 20px;
+    cursor: pointer;
     border: none;
     border-radius: 10px;
     box-shadow: -4px 5px 18px rgb(174, 174, 174);   
@@ -131,8 +131,8 @@
 }
 
 .ahsChild > .imgDiv img{
-    width: 650px;
-    height: 475px;
+    width: 660px;
+    height: 480px;
 }
 
 .imgDiv{
@@ -189,7 +189,6 @@
     padding: 15px 20px;
     border-radius: 20px;
     box-shadow: rgb(219, 222, 225,0.4) -10px 30px 70px 0px;
-    /* border: 1px solid rgb(0, 0, 0); */
     transition: 0.5s ease 0s;
 }
 
@@ -272,7 +271,7 @@
     height: 20px;
 }
 
-/* >>>>> Our Documentation Section <<<<< */
+/* >>>>> Section 03 Our Documentation <<<<< */
 
 .ourDocMain{
     width: 100%;
@@ -303,7 +302,7 @@
     height: 555px;
     display: flex;
     justify-content: center;
-    background-image: url(./../assets/images/documentaionBackground.svg);
+    background-image: url("./../assets/images/documentaionBackground.svg");
     align-items: flex-end;
 }
 
@@ -314,10 +313,731 @@
     align-items: flex-end;
 }
 
-/* >>>>> Customer Satisfication Section <<<<< */
+/* >>>>> Section 04 Customer Satisfication <<<<< */
+
+.customer{
+    background-color: #f9f9fd;
+}
 
 .customerMain{
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    padding-bottom: 20px;
 }
+
+.customerCards{
+    padding-top: 20px;
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.custCardOne{
+    width: 290px;
+    height: 365px;
+}
+
+.custCardOne~div{
+    width: 290px;
+    height: 360px;
+}
+
+.custCardOne{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.custCardOne>.icard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px 0 30px;
+    border-radius: 20px;
+    box-shadow: rgb(76, 64, 247,0.08) 0px 25px 100px 0px;
+    text-align: center;
+    width: 206px;
+    height: 300px;
+    background-color: white;
+}
+
+.custCardOne>.icard h2{
+    font-size: 42px;
+    color: #4c40f7;
+}
+
+.custCardTwo{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.custCardTwo>.iicard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px 0 30px;
+    border-radius: 20px;
+    box-shadow: rgb(76, 64, 247,0.08) 0px 25px 100px 0px;
+    text-align: center;
+    width: 206px;
+    height: 300px;
+    background-color: white;
+}
+
+.custCardTwo>.iicard h2{
+    font-size: 42px;
+    color: #ff6800;
+}
+
+.custCardThree{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.custCardThree>.iiicard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px 0 30px;
+    border-radius: 20px;
+    box-shadow: rgb(76, 64, 247,0.08) 0px 25px 100px 0px;
+    text-align: center;
+    width: 206px;
+    height: 300px;
+    background-color: white;
+}
+
+.custCardThree>.iiicard h2{
+    font-size: 42px;
+    color: #ff2d59;
+}
+
+.custCardFour{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: -10px;
+    align-items: center;
+}
+
+.custCardFour>.ivcard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px 0 30px;
+    border-radius: 20px;
+    box-shadow: rgb(76, 64, 247,0.08) 0px 25px 100px 0px;
+    text-align: center;
+    width: 170px;
+    height: 275px;
+    background-color: white;
+}
+
+.custCardFour>.ivcard h2{
+    font-size: 35px;
+    color: #4adb61;
+}
+.custCardFour>.ivcard p{
+    font-size: 15px;
+    color: #111029;
+}
+
+
+.customerDescription{
+    width: 40%;
+    padding-top: 40px;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.customerHeading h2{
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.customerDesc p{
+    font-size: 17px;
+    color: #6b6b6b;
+    line-height: 32px;
+}
+
+.customerList{
+    width: 100%;
+    height: 250px;
+}
+
+.custListItems{
+    width: 100%;
+    display: flex;
+}
+
+.listData{
+    width: 95%;
+}
+
+.listImg{
+    width: 5%;
+}
+
+.custListItems img{
+    width: 23px;
+    height: 23px;
+}
+
+.custListItems p{
+    font-size: 18px;
+    margin-left: 11px;
+    color: #6b6b6b;
+}
+
+/* >>>>> Section 05 Companies Special Customer <<<<< */
+
+.companiesMain{
+    width: 100%;
+    height: 425px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    flex-direction: column;
+}
+
+.companiesTitle p{
+    margin: auto;
+    font-size: 20px;
+    color: #ff2d59;
+    font-weight: 600;
+}
+
+.secondPara p {
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.companiesImgs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.companiesImgs img{
+    width: 920px;
+    height: 40px;
+    margin-bottom: 40px;
+}
+
+/* >>>>> Section 06 Slider <<<<< */
+
+.slider{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fe9602;
+}
+
+.sliderMain{
+    width: 100%;
+    padding-top: 20px;
+}
+
+.sliderMain>div{
+    width: 100%;
+}
+
+.sliderImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nextIcon>img{
+    width: 40px;
+    height: 40px;
+    opacity: 0.8;
+    padding-right: 50px;
+}
+
+.iconParaDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iconParaDiv p{
+    font-size: 28px;
+    line-height: 40px;
+    color: white;
+    padding-left: 50px;
+    text-align: center;
+}
+
+.ceoName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0%;
+    padding-top: 10px;
+    flex-direction: column;
+}
+
+.ceoName p{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.sliderBtns > #Color{
+    width: 15px;
+    height: 4px;
+    padding: 0 5px;
+    border-radius: 2.5px;
+    outline: none;
+    border: none;
+}
+
+.sliderBtns > .sameColor{
+    width: 15px;
+    height: 4px;
+    padding: 0 5px;
+    background-color: #ffcc00;
+    border-radius: 2.5px;
+    outline: none;
+    border: none;
+}
+
+/* >>>>> Section 07 Frequently Questions <<<<< */
+
+.question{
+    width: 100%;
+    height: 570px;
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+    line-height: 0;
+    padding-top: 20px;
+}
+
+.heading #firstPara{
+    font-size: 20px;
+    font-weight: 600;
+    color: #ff2d59;
+}
+
+.heading #secondPara{
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.questionMain{
+    width: 80%;
+}
+
+.dropDowns{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropDowns select{
+    font-size: 15px;
+    font-weight: 500;
+    color: #111029;
+    margin-bottom: 25px;
+    outline: none;
+    cursor: pointer;
+    width: 95%;
+    height: 50px;
+    padding: 15px 15px 15px 15px;
+    border-radius: 5px;
+}
+
+.dropDowns select option{
+    width: 95%;
+    height: 50px;
+    font-weight: 500;
+    color: #111029;
+    padding: 25px 15px 25px 15px;
+}
+
+/* >>>>> Section 08 Testimonials <<<<< */
+
+.testimonials{
+    width: 100%;
+    height: 950px;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    background-color: #f9f9fd;
+}
+
+.testimonialsMain{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.headingAndInfo > #firstHeading{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ff2d59;
+}
+
+.headingAndInfo > #secondHeading{
+    line-height: 10px;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.parentCard{
+    width: 402px;
+    height: 395px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.testimonialCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    width: 320px;
+    height: 250px;
+}
+
+.testimonialCard > img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: -60px 0 0 0;
+}
+
+.testimonialName{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 0;
+    margin-top: 40px;
+}
+
+.testimonialJobTitle{
+    font-size: 14px;
+    color: #abafc7;
+    line-height: 0;
+}
+
+.testimonialDesc{
+    font-size: 13px;
+    color: #abafc7;
+}
+
+/* >>>>> Section 09 Before Footer <<<<< */
+
+.beforeFooter{
+    width: 100%;
+    height: 550px;
+}
+
+.beforeMain{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #ffcc00;
+    color: white;
+}
+
+.project > p{
+    font-size: 13px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.project > h3{
+    margin-top: -20px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.project{
+    width: 1050px;
+    height: 280px;
+    position: absolute;
+    top: 15%;
+}
+
+.project > button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #4c40f7;
+    color: white;
+    font-size: 18;
+    font-weight: 600;
+    padding: 18px 60px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    box-shadow: -4px 5px 18px rgb(174, 174, 174);   
+}
+
+.project button > img{
+    margin-left: 5px;
+    width: 20px;
+    height: 25px;
+}
+
+.subscribe{
+    width: 950px;
+    height: 280px;
+    background-color: #4c40f7;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: -14%;
+}
+
+.subscribe > p{
+    color: white;
+    margin-top: 8px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.subscribe > h3{
+    color: white;
+    margin-top: -60px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.inputDiv{
+    width: 575px;
+    height: 65px;
+    margin-top: -30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    position: relative;
+    border-radius: 5px;
+}
+
+.inputDiv input{
+    font-size: 18px;
+    width: 525px;
+    height: 50px;
+    outline: none;
+    border: none;
+}
+
+.inputDiv button{
+    background: none;
+    outline: none;
+    border: none;
+    position: absolute;
+    top: 30%;
+    right: 6%;
+}
+
+.inputDiv button img{
+    width: 25px;
+    height: 25px;
+}
+
+/* >>>>> Last Footer <<<<< */
+
+footer{
+    margin-top: 200px;
+}
+
+.footer{
+    width: 100%;
+    height: 660px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #00113b;
+}
+
+.footerMain{
+    width: 85%;
+    height: 490px;
+}
+
+.footerLogo{
+    width: 40px;
+    padding: 4px 4px;
+    align-content: center;
+}
+
+.footerLogo span{
+    color: white;
+    text-align: center;
+    background-color: #4c40f7;
+    box-shadow: -5px 8px 15px #4c40f79b;
+    border-radius: 10px;
+    padding: 3px 11px;
+    font-size: 25px;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.mapContactLogo {
+   width: 100%;
+   height: 400px;
+   border-bottom: 1px solid white;
+   display: flex;
+}
+
+.logoDesc{
+    width: 30%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    line-height: 1.6;
+}
+
+.logoDesc p{
+    font-size: 13px;
+    text-align: left;
+    color: #bfc4ce;
+}
+
+.map{
+    width: 40%;
+    height: 330px;
+}
+
+.map p{
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
+
+.map img{
+    width: 430px;
+    height: 283px;
+}
+
+.contact{
+    width: 30%;
+    line-height: 1.2;
+    height: 190px;
+}
+
+.contact p{
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
+
+.contact a{
+    font-style: normal;
+    margin-bottom: 15px;
+    font-weight: 100;
+    font-size: 16px;
+    color: #bfc4ce;
+    font-weight: 0;
+}
+
+/* >>>>> With Footer Last One <<<<< */
+
+.lastIconPages{
+   display: flex;
+   justify-content: space-between;
+   margin: 25px auto;
+}
+
+.socialLink{
+    display: flex;
+    padding-top: 10px;
+    width: 170px;
+    height: 40px;
+}
+
+.socialLink p{
+font-size: 14px;
+color: #abafc7;
+}
+
+.pagesLinks{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 40px;
+    display: flex;
+}
+
+.pagesLinks ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.imgIconsLink{
+    width: 250px;
+    height: 40px;
+    margin-right: -30px;
+}
+
+.imgIconsLink a{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4c40f7;
+    border-radius: 20px;
+}
+
