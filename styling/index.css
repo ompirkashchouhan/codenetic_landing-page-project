@@ -21,7 +21,6 @@
     position: fixed;
     background-color: white;
     height: 85px;
-    border-bottom: 1px solid gray;
 }
 
 .navLogo{
@@ -565,6 +564,7 @@
     width: 40px;
     height: 40px;
     opacity: 0.8;
+    cursor: pointer;
     padding-right: 50px;
 }
 
@@ -733,6 +733,7 @@
     line-height: 1;
     text-align: center;
     background-color: white;
+    cursor: pointer;
     border-radius: 20px;
     width: 320px;
     height: 250px;
@@ -741,6 +742,7 @@
 .testimonialCard > img{
     width: 100px;
     height: 100px;
+    cursor: pointer;
     border-radius: 50px;
     margin: -60px 0 0 0;
 }
@@ -775,9 +777,8 @@
     height: 750px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    position: relative;
 }
 
 .project{
@@ -805,8 +806,7 @@
 .project{
     width: 1050px;
     height: 280px;
-    position: absolute;
-    top: 15%;
+    margin-top: 15px;
 }
 
 .project > button{
@@ -841,8 +841,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    position: absolute;
-    bottom: -14%;
+    margin-bottom: -200px;
 }
 
 .subscribe > p{
@@ -868,13 +867,12 @@
     align-items: center;
     justify-content: center;
     background-color: white;
-    position: relative;
     border-radius: 5px;
 }
 
 .inputDiv input{
     font-size: 18px;
-    width: 525px;
+    width: 510px;
     height: 50px;
     outline: none;
     border: none;
@@ -884,9 +882,8 @@
     background: none;
     outline: none;
     border: none;
-    position: absolute;
-    top: 30%;
-    right: 6%;
+    cursor: pointer;
+    margin-top: 35px;
 }
 
 .inputDiv button img{
