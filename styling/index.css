@@ -765,6 +765,11 @@
     color: #abafc7;
 }
 
+.starsTestimonial img{
+    width: 16px;
+    height: 16px;
+}
+
 /* >>>>> Section 09 Before Footer <<<<< */
 
 .beforeFooter{
@@ -1036,4 +1041,9 @@ color: #abafc7;
     align-items: center;
     background-color: #4c40f7;
     border-radius: 20px;
+}
+
+.imgIconsLink a img{
+    width: 16px;
+    height: 16px;
 }
